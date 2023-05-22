@@ -16,8 +16,9 @@ p {
 }
 .inicio{
    text-align: center;
-   display: grid;
+   display:grid;
    place-items: center center;
+   text-decoration: none;
 
 }
 .foto {
