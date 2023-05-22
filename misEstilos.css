@@ -22,8 +22,8 @@ button {
 }
 .menu-button {
   text-align: center;
-  background: #A8C7D6;
-  height: 100vh;
+  background: black;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
