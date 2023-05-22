@@ -2,12 +2,13 @@ body {
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    background-image: url(./fotos/fondito5.jpg);
    background-size: 100%;
-   color: white;
+   color: black;
 }
 h1 {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-weight: bolder;
 }
+
 p {
    background-color: beige;
    color: black;
@@ -51,4 +52,7 @@ p {
 }
 .centrar-texto{
    text-align: center;
+}
+.centrar-texto h3::first-line{
+   font-family: 'Courier New', Courier, monospace;
 }
