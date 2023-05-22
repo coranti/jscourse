@@ -1,0 +1,48 @@
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-image: url(./fotos/fondito5.jpg);
+   background-size: 100%;
+   color: white;
+}
+h1 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+}
+p {
+   background-color: beige;
+   color: black;
+   padding: 5px;
+}
+.foto {
+   border: 3px;
+   border-style: solid;
+   border-color: rgb(100, 233, 164);
+   padding: 5px;
+   margin: 2px;
+}
+.texto-negrita {
+   font-weight: bold;
+}
+.texto-cursiva {
+   font-style: italic;
+}
+ /*En la proxima linea lo que hacemos es aplicar un estilo a los elementos "a" que son enlaces que se encuentran dentro del menu
+ cuya propiedad es "href" osea enlaces*/ 
+.menu {
+   background-color: rgba(85, 97, 112, 0.716);
+   text-align: center;
+   width: auto;
+}
+ .menu a[href]{
+   color: white;
+   text-decoration: none;
+   padding: 0px;
+   
+}
+.menu a:hover{
+   color: rgb(224, 220, 245);
+   text-decoration: underline;
+}
+.centrar-texto{
+   text-align: center;
+}
