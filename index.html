@@ -10,9 +10,13 @@
               <p>EC</p>
             </div>
             <div class="middle">
-              <h1>CASI ESTAMOS</h1>
+              <h1>ESTAMOS EN CAMINO</h1>
               <hr>
+              <P id="pietitulo">PRÓXIMO UPDATE EN</P>
               <p id="tiempo">35 days</p>
+            </div>
+            <div class="bottomleft">
+              <p id="bottText">ESTA PAGINA ESTA EN PROCESO</p>
             </div>
             
           </div> 
@@ -36,7 +40,7 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            // Display the result in an element with id="demo"
+            // Display the result in an element with id="tiempo"
             document.getElementById("tiempo").innerHTML = days + "d " + hours + "h "
             + minutes + "m " + seconds + "s ";
 
